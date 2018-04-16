@@ -33,7 +33,7 @@
                                             </barButtonItem>
                                             <barButtonItem systemItem="add" id="fz4-00-vZE">
                                                 <connections>
-                                                    <segue destination="lys-Gi-23y" kind="show" id="AJI-Sy-1pj"/>
+                                                    <action selector="whenAddTapped:" destination="VUX-V6-PHJ" id="1m1-Ie-o21"/>
                                                 </connections>
                                             </barButtonItem>
                                         </rightBarButtonItems>
@@ -41,16 +41,9 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L41-68-mai">
-                                <rect key="frame" x="0.0" y="132" width="163" height="55"/>
+                                <rect key="frame" x="0.0" y="124" width="256" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello User!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhu-89-imf">
-                                <rect key="frame" x="0.0" y="187" width="163" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -62,7 +55,22 @@
                                 <rect key="frame" x="0.0" y="269" width="375" height="398"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" red="0.9529758095741272" green="0.73839360475540161" blue="0.67841309309005737" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Meals:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GPT-Z0-sGq">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.9529758095741272" green="0.73839360475540161" blue="0.67841309309005737" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello User!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhu-89-imf">
+                                <rect key="frame" x="0.0" y="64" width="232" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.94815355539321899" green="0.66424542665481567" blue="0.58428722620010376" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -71,6 +79,7 @@
                     <connections>
                         <outlet property="actualDateField" destination="L41-68-mai" id="46d-5l-zyA"/>
                         <outlet property="helloUserField" destination="dhu-89-imf" id="gwx-jB-KS3"/>
+                        <outlet property="tableView" destination="Xa9-Kx-x54" id="53B-nR-92V"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="signOutSegue" id="pIE-rp-koG"/>
                     </connections>
                 </viewController>
