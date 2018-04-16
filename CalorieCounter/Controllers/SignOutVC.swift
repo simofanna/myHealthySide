@@ -50,15 +50,32 @@ class SignOutVC: UIViewController {
             textField.placeholder = "Protein value (g)"
         }
         alert.addTextField{ (textField) in
-            textField.placeholder = "Carbogydrate value (g)"
+            textField.placeholder = "Fat value (g)"
         }
         alert.addTextField{ (textField) in
-            textField.placeholder = "Fat value (g)"
+            textField.placeholder = "Carbohidrate value (g)"
         }
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         let save = UIAlertAction(title: "Save", style: .default) { _ in
-            guard let text = alert.textFields?.first?.text else {return}
-            print (text)
+            guard let textForName = alert.textFields?.first?.text else {return}
+            guard let textForKcal = alert.textFields![1].text else {return}
+             guard let textForProtein = alert.textFields![2].text else {return}
+             guard let textForFat = alert.textFields![3].text else {return}
+             guard let textForCarbohydrate = alert.textFields![4].text else {return}
+
+            print (textForName,textForKcal,textForFat,textForProtein,textForCarbohydrate)
+            
+            let dateString = String(describing: Date())
+            let parameters = ["name"             : textForName,
+                              "kcalValue"        : textForKcal,
+                              "proteinValue"     : textForProtein,
+                              "fatValue"         : textForFat,
+                              "carbohydrateValue": textForCarbohydrate,
+                              "date"             : dateString]
+            
+            DatabaseService.shared.mealsReference.childByAutoId().setValue(parameters) // generate random id for my meals
+            
+            
         }
         alert.addAction(cancel)
         alert.addAction(save)

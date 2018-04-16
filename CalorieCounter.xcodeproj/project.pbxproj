@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4A43A7207CB7B100E4FF97 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A43A6207CB7B100E4FF97 /* DatabaseService.swift */; };
+		5F06E507208509590074A688 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E506208509590074A688 /* DatabaseService.swift */; };
 		5F4A43AB207CC25300E4FF97 /* CreateMealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A43AA207CC25300E4FF97 /* CreateMealController.swift */; };
 		5F4C7AD4207BB78F001BC0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */; };
 		5F4C7AD9207BB78F001BC0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C7AD7207BB78F001BC0AD /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		2EB5624E469F645D42984077 /* Pods-CalorieCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.debug.xcconfig"; sourceTree = "<group>"; };
-		5F4A43A6207CB7B100E4FF97 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		5F06E506208509590074A688 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		5F4A43AA207CC25300E4FF97 /* CreateMealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMealController.swift; sourceTree = "<group>"; };
 		5F4C7AD0207BB78F001BC0AD /* CalorieCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +74,7 @@
 		5F4A43AC207CC25F00E4FF97 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5F06E506208509590074A688 /* DatabaseService.swift */,
 				5F4A43AA207CC25300E4FF97 /* CreateMealController.swift */,
 				5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */,
 				5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */,
@@ -107,7 +108,6 @@
 				5F4A43AC207CC25F00E4FF97 /* Controllers */,
 				5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */,
 				5FEFC9AF207BD7900003F2FF /* AlertController.swift */,
-				5F4A43A6207CB7B100E4FF97 /* DatabaseService.swift */,
 				5F4C7AD7207BB78F001BC0AD /* Main.storyboard */,
 				5F4C7ADC207BB78F001BC0AD /* LaunchScreen.storyboard */,
 				5F4C7ADA207BB78F001BC0AD /* Assets.xcassets */,
@@ -240,9 +240,9 @@
 				5F6898522084E7FC00C562E6 /* Meals.swift in Sources */,
 				5F4C7AF4207BBD47001BC0AD /* SignUpVC.swift in Sources */,
 				5F4C7AD4207BB78F001BC0AD /* AppDelegate.swift in Sources */,
-				5F4A43A7207CB7B100E4FF97 /* DatabaseService.swift in Sources */,
 				5F4C7AF2207BBD0E001BC0AD /* SignOutVC.swift in Sources */,
 				5F4A43AB207CC25300E4FF97 /* CreateMealController.swift in Sources */,
+				5F06E507208509590074A688 /* DatabaseService.swift in Sources */,
 				5FEFC9B0207BD7900003F2FF /* AlertController.swift in Sources */,
 				5F4C7AF0207BBC55001BC0AD /* SignInVC.swift in Sources */,
 			);

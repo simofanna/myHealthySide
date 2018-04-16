@@ -9,11 +9,11 @@
 import Foundation
 
 struct Meals {
+    let id: String
     let name: String
     let kcalValue: Int
     let proteinValue: Int
     let fatValue: Int
     let carbohydrateValue: Int
-    let details: String
-    //let date = Date()
+    let date: Date
 }
