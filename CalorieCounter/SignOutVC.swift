@@ -14,9 +14,22 @@ class SignOutVC: UIViewController {
     @IBOutlet weak var actualDateField: UILabel!
     @IBOutlet weak var helloUserField: UILabel!
     
+    var meals = [Meal]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        
+        // list all the meals in the database
+        DatabaseService.shared.mealsReference.observe(DataEventType.value, with: { (DataSnapshot) in
+            print(DataSnapshot)
+            guard let mealsSnapShot = MealsSnapshot(with: DataSnapshot) else { return }
+            self.meals = mealsSnapShot.meals
+            self.meals.sort(by: { $0.date.compare($1.date) == .orderedDescending })
+            self.tableView.reloadData()
+            self.tableView.dataSource = self
+            
+            })
         
         guard let username = Auth.auth().currentUser?.displayName else { return }
         helloUserField.text = "Hello \(username)"
@@ -43,17 +56,17 @@ class SignOutVC: UIViewController {
         alert.addTextField{ (textField) in
             textField.placeholder = "Meal name"
         }
-        alert.addTextField{ (textField) in
-            textField.placeholder = "Kcal value (g)"
+        alert.addTextField{ (textField01) in
+            textField01.placeholder = "Kcal value (100g)"
         }
-        alert.addTextField{ (textField) in
-            textField.placeholder = "Protein value (g)"
+        alert.addTextField{ (textField02) in
+            textField02.placeholder = "Protein value (100g)"
         }
-        alert.addTextField{ (textField) in
-            textField.placeholder = "Fat value (g)"
+        alert.addTextField{ (textField03) in
+            textField03.placeholder = "Fat value (100g)"
         }
-        alert.addTextField{ (textField) in
-            textField.placeholder = "Carbohidrate value (g)"
+        alert.addTextField{ (textField04) in
+            textField04.placeholder = "Carbohidrate value (100g)"
         }
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         let save = UIAlertAction(title: "Save", style: .default) { _ in
@@ -63,18 +76,18 @@ class SignOutVC: UIViewController {
              guard let textForFat = alert.textFields![3].text else {return}
              guard let textForCarbohydrate = alert.textFields![4].text else {return}
 
-            print (textForName,textForKcal,textForFat,textForProtein,textForCarbohydrate)
+            print ("adatok \(textForName,textForKcal,textForFat,textForProtein,textForCarbohydrate)")
             
             let dateString = String(describing: Date())
-            let parameters = ["name"             : textForName,
+            let parameters = ["username": Auth.auth().currentUser?.displayName,
+                              "name"             : textForName,
                               "kcalValue"        : textForKcal,
                               "proteinValue"     : textForProtein,
                               "fatValue"         : textForFat,
                               "carbohydrateValue": textForCarbohydrate,
                               "date"             : dateString]
             
-            DatabaseService.shared.mealsReference.childByAutoId().setValue(parameters) // generate random id for my meals
-            
+        DatabaseService.shared.mealsReference.childByAutoId().setValue(parameters) // generate random id for my meals
             
         }
         alert.addAction(cancel)
@@ -84,7 +97,7 @@ class SignOutVC: UIViewController {
     }
     
     @IBOutlet weak var tableView: UITableView!
-    let meals = [Meals]()
+    
     
 }
 extension SignOutVC: UITableViewDataSource {
@@ -96,8 +109,8 @@ extension SignOutVC: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell (style: .subtitle, reuseIdentifier: nil)
-        cell.textLabel?.text = meals[indexPath.row].name // meals name
-        //cell.detailTextLabel?.text = meals[indexPath.row].convertDateIntoString()
+        cell.textLabel?.text = meals[indexPath.row].name
+        cell.detailTextLabel?.text = meals[indexPath.row].kcalValue
         return cell
     }
 }

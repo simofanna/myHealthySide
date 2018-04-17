@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F06E507208509590074A688 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E506208509590074A688 /* DatabaseService.swift */; };
-		5F4A43AB207CC25300E4FF97 /* CreateMealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A43AA207CC25300E4FF97 /* CreateMealController.swift */; };
+		5F06E509208532740074A688 /* MealsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E508208532740074A688 /* MealsSnapshot.swift */; };
 		5F4C7AD4207BB78F001BC0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */; };
 		5F4C7AD9207BB78F001BC0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C7AD7207BB78F001BC0AD /* Main.storyboard */; };
 		5F4C7ADB207BB78F001BC0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C7ADA207BB78F001BC0AD /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 		5F4C7AF0207BBC55001BC0AD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */; };
 		5F4C7AF2207BBD0E001BC0AD /* SignOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */; };
 		5F4C7AF4207BBD47001BC0AD /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */; };
-		5F6898522084E7FC00C562E6 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6898512084E7FC00C562E6 /* Meals.swift */; };
+		5F6898522084E7FC00C562E6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6898512084E7FC00C562E6 /* Meal.swift */; };
 		5FEFC9B0207BD7900003F2FF /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFC9AF207BD7900003F2FF /* AlertController.swift */; };
 		9BE8A482EF2C4CE8A4B79958 /* Pods_CalorieCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298EEBA3C52417E0D35A23C /* Pods_CalorieCounter.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		2EB5624E469F645D42984077 /* Pods-CalorieCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.debug.xcconfig"; sourceTree = "<group>"; };
 		5F06E506208509590074A688 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
-		5F4A43AA207CC25300E4FF97 /* CreateMealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMealController.swift; sourceTree = "<group>"; };
+		5F06E508208532740074A688 /* MealsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsSnapshot.swift; sourceTree = "<group>"; };
 		5F4C7AD0207BB78F001BC0AD /* CalorieCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4C7AD8207BB78F001BC0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutVC.swift; sourceTree = "<group>"; };
 		5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		5F6898512084E7FC00C562E6 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		5F6898512084E7FC00C562E6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		5FEFC9AF207BD7900003F2FF /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		9298EEBA3C52417E0D35A23C /* Pods_CalorieCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalorieCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB90D7AC010D270A6DE4DBA4 /* Pods-CalorieCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,19 +71,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5F4A43AC207CC25F00E4FF97 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5F06E506208509590074A688 /* DatabaseService.swift */,
-				5F4A43AA207CC25300E4FF97 /* CreateMealController.swift */,
-				5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */,
-				5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */,
-				5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */,
-				5F6898512084E7FC00C562E6 /* Meals.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		5F4C7AC7207BB78F001BC0AD = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +92,14 @@
 		5F4C7AD2207BB78F001BC0AD /* CalorieCounter */ = {
 			isa = PBXGroup;
 			children = (
-				5F4A43AC207CC25F00E4FF97 /* Controllers */,
-				5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */,
+				5F06E508208532740074A688 /* MealsSnapshot.swift */,
+				5F6898512084E7FC00C562E6 /* Meal.swift */,
 				5FEFC9AF207BD7900003F2FF /* AlertController.swift */,
+				5F06E506208509590074A688 /* DatabaseService.swift */,
+				5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */,
+				5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */,
+				5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */,
+				5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */,
 				5F4C7AD7207BB78F001BC0AD /* Main.storyboard */,
 				5F4C7ADC207BB78F001BC0AD /* LaunchScreen.storyboard */,
 				5F4C7ADA207BB78F001BC0AD /* Assets.xcassets */,
@@ -237,11 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6898522084E7FC00C562E6 /* Meals.swift in Sources */,
+				5F6898522084E7FC00C562E6 /* Meal.swift in Sources */,
 				5F4C7AF4207BBD47001BC0AD /* SignUpVC.swift in Sources */,
 				5F4C7AD4207BB78F001BC0AD /* AppDelegate.swift in Sources */,
 				5F4C7AF2207BBD0E001BC0AD /* SignOutVC.swift in Sources */,
-				5F4A43AB207CC25300E4FF97 /* CreateMealController.swift in Sources */,
+				5F06E509208532740074A688 /* MealsSnapshot.swift in Sources */,
 				5F06E507208509590074A688 /* DatabaseService.swift in Sources */,
 				5FEFC9B0207BD7900003F2FF /* AlertController.swift in Sources */,
 				5F4C7AF0207BBC55001BC0AD /* SignInVC.swift in Sources */,
