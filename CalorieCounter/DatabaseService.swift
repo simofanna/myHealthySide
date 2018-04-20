@@ -16,5 +16,6 @@ class DatabaseService {
     
     
     let mealsReference = Database.database().reference().child("meals")
+    let waterReference = Database.database().reference().child("water")
     
 }

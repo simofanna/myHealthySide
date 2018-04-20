@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		5F06E507208509590074A688 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E506208509590074A688 /* DatabaseService.swift */; };
 		5F06E509208532740074A688 /* MealsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06E508208532740074A688 /* MealsSnapshot.swift */; };
+		5F21B05C2086193300973DC2 /* WaterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F21B05B2086193300973DC2 /* WaterVC.swift */; };
+		5F21B06B20862E3600973DC2 /* measureTape-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06020862E3500973DC2 /* measureTape-4.png */; };
+		5F21B06C20862E3600973DC2 /* measureTape-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06120862E3500973DC2 /* measureTape-6.png */; };
+		5F21B06D20862E3600973DC2 /* measureTape-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06220862E3500973DC2 /* measureTape-7.png */; };
+		5F21B06E20862E3600973DC2 /* measureTape-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06320862E3500973DC2 /* measureTape-5.png */; };
+		5F21B06F20862E3600973DC2 /* measureTape-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06420862E3500973DC2 /* measureTape-1.png */; };
+		5F21B07020862E3600973DC2 /* measureTape-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06520862E3500973DC2 /* measureTape-3.png */; };
+		5F21B07120862E3600973DC2 /* measureTape-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06620862E3500973DC2 /* measureTape-2.png */; };
+		5F21B07220862E3600973DC2 /* measureTape-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06720862E3500973DC2 /* measureTape-8.png */; };
+		5F21B07320862E3600973DC2 /* measureTape-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06820862E3500973DC2 /* measureTape-9.png */; };
+		5F21B07420862E3600973DC2 /* measureTape-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06920862E3600973DC2 /* measureTape-0.png */; };
+		5F21B07520862E3600973DC2 /* measureTape-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F21B06A20862E3600973DC2 /* measureTape-10.png */; };
 		5F4C7AD4207BB78F001BC0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */; };
 		5F4C7AD9207BB78F001BC0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C7AD7207BB78F001BC0AD /* Main.storyboard */; };
 		5F4C7ADB207BB78F001BC0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C7ADA207BB78F001BC0AD /* Assets.xcassets */; };
@@ -18,6 +30,7 @@
 		5F4C7AF2207BBD0E001BC0AD /* SignOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */; };
 		5F4C7AF4207BBD47001BC0AD /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */; };
 		5F6898522084E7FC00C562E6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6898512084E7FC00C562E6 /* Meal.swift */; };
+		5FD719AA2087782500907EB4 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD719A92087782500907EB4 /* Water.swift */; };
 		5FEFC9B0207BD7900003F2FF /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFC9AF207BD7900003F2FF /* AlertController.swift */; };
 		9BE8A482EF2C4CE8A4B79958 /* Pods_CalorieCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298EEBA3C52417E0D35A23C /* Pods_CalorieCounter.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +39,18 @@
 		2EB5624E469F645D42984077 /* Pods-CalorieCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.debug.xcconfig"; sourceTree = "<group>"; };
 		5F06E506208509590074A688 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		5F06E508208532740074A688 /* MealsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsSnapshot.swift; sourceTree = "<group>"; };
+		5F21B05B2086193300973DC2 /* WaterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterVC.swift; sourceTree = "<group>"; };
+		5F21B06020862E3500973DC2 /* measureTape-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-4.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-4.png"; sourceTree = "<group>"; };
+		5F21B06120862E3500973DC2 /* measureTape-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-6.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-6.png"; sourceTree = "<group>"; };
+		5F21B06220862E3500973DC2 /* measureTape-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-7.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-7.png"; sourceTree = "<group>"; };
+		5F21B06320862E3500973DC2 /* measureTape-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-5.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-5.png"; sourceTree = "<group>"; };
+		5F21B06420862E3500973DC2 /* measureTape-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-1.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-1.png"; sourceTree = "<group>"; };
+		5F21B06520862E3500973DC2 /* measureTape-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-3.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-3.png"; sourceTree = "<group>"; };
+		5F21B06620862E3500973DC2 /* measureTape-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-2.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-2.png"; sourceTree = "<group>"; };
+		5F21B06720862E3500973DC2 /* measureTape-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-8.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-8.png"; sourceTree = "<group>"; };
+		5F21B06820862E3500973DC2 /* measureTape-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-9.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-9.png"; sourceTree = "<group>"; };
+		5F21B06920862E3600973DC2 /* measureTape-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-0.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-0.png"; sourceTree = "<group>"; };
+		5F21B06A20862E3600973DC2 /* measureTape-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "measureTape-10.png"; path = "../../../../Library/Mobile Documents/4R6749AYRE~com~pixelmatorteam~pixelmator/Documents/measureTape-10.png"; sourceTree = "<group>"; };
 		5F4C7AD0207BB78F001BC0AD /* CalorieCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4C7AD8207BB78F001BC0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +62,7 @@
 		5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutVC.swift; sourceTree = "<group>"; };
 		5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		5F6898512084E7FC00C562E6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		5FD719A92087782500907EB4 /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
 		5FEFC9AF207BD7900003F2FF /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		9298EEBA3C52417E0D35A23C /* Pods_CalorieCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalorieCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB90D7AC010D270A6DE4DBA4 /* Pods-CalorieCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +97,53 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5F21B05F20862E1200973DC2 /* imageAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5F21B06920862E3600973DC2 /* measureTape-0.png */,
+				5F21B06420862E3500973DC2 /* measureTape-1.png */,
+				5F21B06620862E3500973DC2 /* measureTape-2.png */,
+				5F21B06520862E3500973DC2 /* measureTape-3.png */,
+				5F21B06020862E3500973DC2 /* measureTape-4.png */,
+				5F21B06320862E3500973DC2 /* measureTape-5.png */,
+				5F21B06120862E3500973DC2 /* measureTape-6.png */,
+				5F21B06220862E3500973DC2 /* measureTape-7.png */,
+				5F21B06720862E3500973DC2 /* measureTape-8.png */,
+				5F21B06820862E3500973DC2 /* measureTape-9.png */,
+				5F21B06A20862E3600973DC2 /* measureTape-10.png */,
+			);
+			path = imageAnimation;
+			sourceTree = "<group>";
+		};
+		5F21E6832089CC74001D361E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FEFC9AF207BD7900003F2FF /* AlertController.swift */,
+				5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */,
+				5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */,
+				5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F21E6842089CE7C001D361E /* meal */ = {
+			isa = PBXGroup;
+			children = (
+				5F6898512084E7FC00C562E6 /* Meal.swift */,
+				5F06E508208532740074A688 /* MealsSnapshot.swift */,
+			);
+			path = meal;
+			sourceTree = "<group>";
+		};
+		5F21E6852089CF0B001D361E /* water */ = {
+			isa = PBXGroup;
+			children = (
+				5FD719A92087782500907EB4 /* Water.swift */,
+				5F21B05B2086193300973DC2 /* WaterVC.swift */,
+			);
+			path = water;
+			sourceTree = "<group>";
+		};
 		5F4C7AC7207BB78F001BC0AD = {
 			isa = PBXGroup;
 			children = (
@@ -92,13 +165,11 @@
 		5F4C7AD2207BB78F001BC0AD /* CalorieCounter */ = {
 			isa = PBXGroup;
 			children = (
-				5F06E508208532740074A688 /* MealsSnapshot.swift */,
-				5F6898512084E7FC00C562E6 /* Meal.swift */,
-				5FEFC9AF207BD7900003F2FF /* AlertController.swift */,
+				5F21E6852089CF0B001D361E /* water */,
+				5F21E6842089CE7C001D361E /* meal */,
+				5F21E6832089CC74001D361E /* controller */,
+				5F21B05F20862E1200973DC2 /* imageAnimation */,
 				5F06E506208509590074A688 /* DatabaseService.swift */,
-				5F4C7AEF207BBC55001BC0AD /* SignInVC.swift */,
-				5F4C7AF3207BBD47001BC0AD /* SignUpVC.swift */,
-				5F4C7AF1207BBD0E001BC0AD /* SignOutVC.swift */,
 				5F4C7AD3207BB78F001BC0AD /* AppDelegate.swift */,
 				5F4C7AD7207BB78F001BC0AD /* Main.storyboard */,
 				5F4C7ADC207BB78F001BC0AD /* LaunchScreen.storyboard */,
@@ -170,9 +241,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F21B06B20862E3600973DC2 /* measureTape-4.png in Resources */,
+				5F21B06F20862E3600973DC2 /* measureTape-1.png in Resources */,
 				5F4C7ADE207BB78F001BC0AD /* LaunchScreen.storyboard in Resources */,
+				5F21B06D20862E3600973DC2 /* measureTape-7.png in Resources */,
+				5F21B07120862E3600973DC2 /* measureTape-2.png in Resources */,
+				5F21B06E20862E3600973DC2 /* measureTape-5.png in Resources */,
+				5F21B06C20862E3600973DC2 /* measureTape-6.png in Resources */,
 				5F4C7AE6207BB9F7001BC0AD /* GoogleService-Info.plist in Resources */,
+				5F21B07020862E3600973DC2 /* measureTape-3.png in Resources */,
+				5F21B07320862E3600973DC2 /* measureTape-9.png in Resources */,
+				5F21B07520862E3600973DC2 /* measureTape-10.png in Resources */,
 				5F4C7ADB207BB78F001BC0AD /* Assets.xcassets in Resources */,
+				5F21B07220862E3600973DC2 /* measureTape-8.png in Resources */,
+				5F21B07420862E3600973DC2 /* measureTape-0.png in Resources */,
 				5F4C7AD9207BB78F001BC0AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +313,8 @@
 			files = (
 				5F6898522084E7FC00C562E6 /* Meal.swift in Sources */,
 				5F4C7AF4207BBD47001BC0AD /* SignUpVC.swift in Sources */,
+				5F21B05C2086193300973DC2 /* WaterVC.swift in Sources */,
+				5FD719AA2087782500907EB4 /* Water.swift in Sources */,
 				5F4C7AD4207BB78F001BC0AD /* AppDelegate.swift in Sources */,
 				5F4C7AF2207BBD0E001BC0AD /* SignOutVC.swift in Sources */,
 				5F06E509208532740074A688 /* MealsSnapshot.swift in Sources */,

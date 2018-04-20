@@ -9,16 +9,18 @@
 import Foundation
 import Firebase
 
+//TODO status create enum
 
 struct Meal {
     let mealId: String
     let username: String
     let name: String
-    let kcalValue: Int
-    let proteinValue: Int
-    let fatValue: Int
-    let carbohydrateValue: Int
+    let kcalValue: String
+    let proteinValue: String
+    let fatValue: String
+    let carbohydrateValue: String
     let date: Date
+
     
     init?(mealId:String, dict: [String: Any]){
         self.mealId = mealId
@@ -28,10 +30,10 @@ struct Meal {
         
         guard let username = dict["username"] as? String,
         let name = dict["name"]as? String,
-        let kcalValue = dict["kcalValue"] as? Int,
-        let proteinValue = dict["proteinValue"] as? Int,
-        let fatValue = dict["fatValue"] as? Int,
-        let carbohydrateValue = dict["carbohydrateValue"] as? Int,
+        let kcalValue = dict["kcalValue"] as? String,
+        let proteinValue = dict["proteinValue"] as? String,
+        let fatValue = dict["fatValue"] as? String,
+        let carbohydrateValue = dict["carbohydrateValue"] as? String,
         let dateString = dict["date"] as? String,
         let date = formatter.date(from: dateString)
             else { return nil }
@@ -43,6 +45,7 @@ struct Meal {
         self.fatValue = fatValue
         self.carbohydrateValue = carbohydrateValue
         self.date = date
+        
         
         }
     }

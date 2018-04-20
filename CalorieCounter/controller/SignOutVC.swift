@@ -38,7 +38,7 @@ class SignOutVC: UIViewController {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy.MM.dd"
         let result = formatter.string(from: date)
-        actualDateField.text = "Today: \(result)"
+        actualDateField.text = result
         
     }
 
@@ -108,6 +108,7 @@ extension SignOutVC: UITableViewDataSource {
         return meals.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = UITableViewCell (style: .subtitle, reuseIdentifier: nil)
         cell.textLabel?.text = meals[indexPath.row].name
         cell.detailTextLabel?.text = meals[indexPath.row].kcalValue
